@@ -66,7 +66,7 @@ const RatingModal: FC<Props> = props => {
             value={ratingText}
             onChange={e => setRatingText(e.target.value)}
             rows={4}
-            className='w-full text-black px-2 py-3 border rounded-md'
+            className='w-full text-gray-700 px-2 py-3 border rounded-md'
           ></textarea>
         </div>
 
